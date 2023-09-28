@@ -1,6 +1,6 @@
 nama = input("Masukan nama anda: ")
-nim = input("Masukan NIM anda: ")
-angkatan = input("Masukan tahun angkatan anda: ")
+nim = int(input("Masukan NIM anda: "))
+angkatan = int(input("Masukan tahun angkatan anda: "))
 jurusan = input("Masukan jurusan anda: ")
 fakultas = input("Masukan fakultas anda: ")
 
