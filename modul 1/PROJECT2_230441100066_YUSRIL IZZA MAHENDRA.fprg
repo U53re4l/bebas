@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-25 01.36.55 AM"/>
+        <attribute name="created" value="dXNlcjtFTElURUJPT0syNTcwUDsyMDIzLTA5LTI0OzAxLjIzLjMyIFBNOzI2NTY="/>
+        <attribute name="edited" value="dXNlcjtFTElURUJPT0syNTcwUDsyMDIzLTA5LTI1OzAxLjM2LjU1IEFNOzM7Mjc2MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d, e" type="Integer" array="False" size=""/>
+            <declare name="f, g" type="Real" array="False" size=""/>
+            <output expression="&quot;Masukan jumlah emas yang anda miliki (gram):&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Tahun saat ini: &quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Harga beli per gram tahun ini:&quot;" newline="True"/>
+            <input variable="c"/>
+            <output expression="&quot;Tahun berapa anda ingin menjual emas anda?&quot;" newline="True"/>
+            <input variable="d"/>
+            <assign variable="e" expression="d-b"/>
+            <assign variable="f" expression="a*c"/>
+            <assign variable="g" expression="f+(f*(0.1*e))"/>
+            <output expression="&quot;harga emas anda ditahun &quot; &amp;d &amp;&quot;adalah &quot; &amp;g" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

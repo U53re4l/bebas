@@ -1,0 +1,13 @@
+nama = input("Masukan nama anda: ")
+nim = int(input("Masukan NIM anda: "))
+angkatan = int(input("Masukan tahun angkatan anda: "))
+jurusan = input("Masukan jurusan anda: ")
+fakultas = input("Masukan fakultas anda: ")
+
+print("Praktikum Argoritma dan Pemograman")
+print("Nama: ", nama)
+print("NIM: ", nim)
+print("Angkatan: ", angkatan)
+print("Jurusan: ", jurusan)
+print("Fakultas: ", fakultas)
+print("Universitas Trunojoyo Madura")
